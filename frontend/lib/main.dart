@@ -9,6 +9,9 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Auth App',
